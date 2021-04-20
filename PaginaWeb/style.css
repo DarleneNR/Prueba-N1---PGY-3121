@@ -46,7 +46,6 @@ h1{
     align-content: center;
     padding-left: 420px;
 }
-
 .back-menu{
     align-content: center;
     max-width: 100%;
@@ -56,7 +55,13 @@ h1{
     height: 60px;
     padding: 0 10px;
 }
-.submenu {
+.menu{
+    text-align: center;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 0 10px;
+}
+.submenu{
     display: inline-block;
     padding: 5px 20px;
     font-weight: 700;
@@ -64,11 +69,26 @@ h1{
     margin: 0;
     color: white;
 }
-.menu {
-    text-align: center;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    padding: 0 0 10px;
+
+/* Submenu*/
+.menu-categorias{
+	position: absolute;
+	background: #333333;
+	width: 150%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.menu-categorias li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+.menu .submenu li:hover .menu-categorias{
+	visibility: visible;
+	opacity: 1;
 }
 
 /*Propuesta de Negocio y telefono*/
