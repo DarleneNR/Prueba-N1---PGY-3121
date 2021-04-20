@@ -5,8 +5,142 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzas Premium</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="style_fichas.css" type="text/css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <!-- Cabecera -->
+    <div>
+        <div class="back-logo">
+            <a href="index.html"><img src="https://image.freepik.com/vector-gratis/pizza-logo-vector_25327-119.jpg" class="logo"></a>
+        </div>
+        <div class="back-menu">
+            <nav class="navbar navbar-expand-lg" class="menu" class="back-menu">
+                <a class="submenu" href="index.html">HOME</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"  class="submenu" href="#">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown" class="submenu" href="#">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="submenu" href="#">
+                                PRODUCTOS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="ficha1_premium.html" class="submenu">Premium</a>
+                                <a class="dropdown-item" href="#" class="submenu">Vegetarianas</a>
+                                <a class="dropdown-item" href="#" class="submenu">Sabores del mundo</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="submenu" href="#">DELIVERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="submenu" href="#">PIDE AQUÍ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="submenu" href="#">PREGUNTAS FRECUENTES</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Resto de contenido -->
+    <div class="container">
+        <div class="row">
+            <div class="col" id="premium1">
+                <img src="https://zirus.pizza/wp-content/uploads/2019/09/Camaron.jpg" alt="Pizza premium" height="400px" id="img-fichas">
+            </div>
+
+            <div class="col"  id="desc_premium1">
+                <h1>Pizza Premium</h1>
+                <p id="precio" style="color: rgb(165, 42, 42);"> 
+                    <b>$ 17.000</b>
+                </p>
+                <!-- Ingredientes -->
+                <dl>
+                    <dt><strong><h4>Ingredientes</h4></strong></dt> 
+                    <dd>Jamón serrano, trocitos de pollo, o carne</dd>
+                    <dd>Quesos</dd>
+                    <dd>Anchoas, atún</dd>
+                    <dd>Aceitunas, o aguacate</dd>
+                    <dd>Tomate triturado</dd>
+                    <dd>Piña, para algunos gustos</dd>
+                    <dd>Champiñones</dd>
+                    <dd>Tocino Ahumado</dd>
+                    <dd>Salame</dd>
+                </dl>
+            </div>
+        </div>
     
+        <!-- Tabla/Valor nutricional -->
+        <div id="tabla-nutricional" class="container">
+            <h3>INFORMACIÓN NUTRICIONAL</h3>
+            <p>Tamaño de la porción: 1 tajada</p>            
+            <table class="table table-hover">
+                <thead>
+                    <tr> 
+                        <th> </th>
+                        <th>Por porción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr> 
+                        <td>Energía</td> 
+                        <td><strong>380 kcal
+                        </strong><br>
+                        1590 kj</td>
+                    </tr>
+                    <tr>
+                        <td>Proteína</td>
+                        <td>15,00g</td>
+                    </tr>
+                    <tr>
+                        <td>Grasa</td>
+                        <td>17,00g</td>
+                    </tr>
+                    <tr>
+                        <td>Carbohidratos</td>
+                        <td>38,00g</td>
+                    </tr>
+                    <tr>
+                        <td>Azúcar</td>
+                        <td>5,00g</td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-xs-12 col-sm-6">
+                        <h3 style="color: rgb(0, 0, 0);">Contacto</h3>
+                        <a href="#" class="enlaces-pie-pagina" style="color: rgb(0, 0, 0);">delicious@pizza.com</a>
+                        <a href="#" class="enlaces-pie-pagina" style="color: rgb(0, 0, 0);">supportdeliciuos@pizza.com</a>
+                        <a href="#" class="enlaces-pie-pagina" style="color: rgb(0, 0, 0);">0241 661 181</a>
+                        <a href="#" class="enlaces-pie-pagina" style="color: rgb(0, 0, 0);">0723 337 564</a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="col-xs-12 col-sm-6">
+                        <h3 style="color: rgb(0, 0, 0);">Redes sociales</h3>
+                        <a class="enlaces-pie-pagina" href="#" style="color: rgb(0, 0, 0);">Instagram</a>
+                        <a class="enlaces-pie-pagina" href="#" style="color: rgb(0, 0, 0);">Facebook</a>
+                        <a class="enlaces-pie-pagina" href="#" style="color: rgb(0, 0, 0);">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
