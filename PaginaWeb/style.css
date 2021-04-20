@@ -98,6 +98,7 @@ h1{
 }
 
 /*Propuesta de Negocio y telefono*/
+
 /* #propuesta{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -114,14 +115,14 @@ h1{
     height: 200px;
     padding: 0 10px;
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 30px;
     border-bottom: 10px;
 }
 
 .img-desc{
     display: block;
     height: 200px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 #back-desc{

@@ -4,23 +4,54 @@
     line-height: 1em;
 }
 
+/*Categoria: Premium*/
+
 #premium1{
     margin-top: 80px;
     margin-left: -10px;
     padding-right: 50px;
     padding-bottom: 20px;
+    width: 500px;
 }
 #desc_premium1{
     margin-top: 80px;
-    margin-left: -160px;
+    margin-left: 10px;
 }
 
-#img-fichas{
-    padding-left: 50px;
-    padding-right: 10px;
-    vertical-align: super;
-    size: 400px;
+/*Categoria: Vegetariana*/
+#veggie1{
+    margin-top: 80px;
+    margin-left: -10px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    width: 400px;
+}
 
+#desc_veggie1{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+/*Categoria: Sabores del mundo*/
+#sabor-m1{
+    margin-top: 80px;
+    margin-left: -10px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    width: 500px;
+}
+
+#desc-sabor-m1{
+    margin-top: -2300px;
+    margin-left: 150px;
+    padding: 20px
+}
+
+/*Fichas en general*/
+.img-fichas{
+    padding-left: 50px;
+    padding-right: 340px;
+    size: 400px;
 }
 
 #price{
