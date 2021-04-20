@@ -19,6 +19,7 @@
 }
 
 /*Categoria: Vegetariana*/
+
 #veggie1{
     margin-top: 80px;
     margin-left: -10px;
@@ -33,18 +34,18 @@
 }
 
 /*Categoria: Sabores del mundo*/
+
 #sabor-m1{
     margin-top: 80px;
     margin-left: -10px;
     padding-right: 50px;
     padding-bottom: 20px;
-    width: 500px;
+    width: 350px;
 }
 
 #desc-sabor-m1{
-    margin-top: -2300px;
-    margin-left: 150px;
-    padding: 20px
+    margin-top: 70px;
+    margin-left: 70px;
 }
 
 /*Fichas en general*/
