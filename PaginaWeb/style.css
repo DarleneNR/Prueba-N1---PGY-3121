@@ -21,6 +21,7 @@
     overflow: unset;
 } */
 
+
 h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -29,15 +30,16 @@ h1{
     align-content: center;
     max-width: 100%;
     background-color: rgb(25, 25, 25);
-    border-radius: 0px; 
     box-shadow: rgb(25, 25, 25);
-    height: 200px;
+    height: 210px;
+    padding: 10px;
 }
 .logo{
-    height:200px;
-    align-content: center;
+    height:140px;
+    float: right;
+    
 }
-.back-logo img {
+/* .back-logo img{
     max-height: 800px;
     max-width: 100%;
     box-sizing: content-box;
@@ -45,15 +47,19 @@ h1{
     border-bottom: 10px;
     align-content: center;
     padding-left: 420px;
-}
+} */
+
+/*menu*/
 .back-menu{
-    align-content: center;
     max-width: 100%;
+    box-sizing: content-box;
     background-color: rgb(25, 25, 25);
     border-radius: 0px; 
     box-shadow: rgb(25, 25, 25);
     height: 60px;
     padding: 0 10px;
+    margin-top: 140px;
+    border-bottom: 10px;
 }
 .menu{
     text-align: center;
@@ -92,29 +98,43 @@ h1{
 }
 
 /*Propuesta de Negocio y telefono*/
-#propuesta{
+/* #propuesta{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 0px;
     margin-right: 0px;
+    padding: auto;
+} */
+
+#propuesta{
+    max-width: 100%;
+    background-color: rgb(250, 250, 250);
+    border-radius: 0px; 
+    box-shadow: rgb(25, 25, 25);
+    height: 200px;
+    padding: 0 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    border-bottom: 10px;
 }
 
-#img-desc{
-    height: 100%;
+.img-desc{
     display: block;
-    max-height: max-content;
-    height: 330px;
+    height: 200px;
+    padding-top: 5px;
 }
 
 #back-desc{
-    background: rgba(235, 235, 235, 0.548) url(../images/background/concrete-wall.png) repeat;
-    padding: 0px;
+    background-color:rgb(119, 100, 100) url(https://th.bing.com/th/id/OIP.GTmbi6p5_1gzaFACPvdZkQHaC0?pid=ImgDet&rs=1) repeat;
+    padding: 10px;
 }
 
 #desc_telf{
-    padding: 20px;
     text-align: center;
-    margin-top: 60px;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*Promociones*/
@@ -122,11 +142,20 @@ h1{
 	height: 330px;
 }
 
+.subtitle-prom{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+}
 
 /*Categorias*/
 #categoria{
-    background: rgba(235, 235, 235, 0.473) url(../images/background/concrete-wall.png) repeat;
+    background: rgba(194, 191, 191, 0.199);
     padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 /*Pie de página*/
@@ -178,7 +207,6 @@ footer{
     margin-top: 10px;
     color: rgb(0, 0, 0)
 }
-
 
 
 

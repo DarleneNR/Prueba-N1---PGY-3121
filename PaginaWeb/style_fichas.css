@@ -1,0 +1,36 @@
+.h1 .h2 .h3 .h4{
+    color: #333;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+#premium1{
+    margin-top: 80px;
+    margin-left: -10px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+#desc_premium1{
+    margin-top: 80px;
+    margin-left: -160px;
+}
+
+#img-fichas{
+    padding-left: 50px;
+    padding-right: 10px;
+    vertical-align: super;
+    size: 400px;
+
+}
+
+#price{
+    color: #f40000;
+}
+
+/*Valor nutricional*/
+#tabla-nutricional{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
